@@ -103,6 +103,10 @@ docker tag fagnerfgb/conversao:v1 fagnerfgb/conversao:latest
 docker container run --name web-conversao -d -p 8086:8080 fagnerfgb/conversao:v1
 docker push fagnerfgb/conversao:v1 && docker push fagnerfgb/conversao:latest
 ```
+### Limpeza
+```bash
+docker container rm -f $(docker container ls -qa)
+```
 
 ### Executando os containers com o Docker compose
 
