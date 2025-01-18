@@ -1,0 +1,42 @@
+services:
+  carta:
+    container_name: '${SERVER}-${CARTA}'
+    image: ${REPO}/${CARTA}:${TAG}
+    ports:
+      - 8080:${PORT_CTN}
+
+  jokenpow:
+    container_name: '${SERVER}-${JOKENPOW}'
+    image: ${REPO}/${JOKENPOW}:${TAG}
+    ports:
+      - 8081:${PORT_CTN}
+  
+  lamp:
+    container_name: '${SERVER}-${LAMP}'
+    image: ${REPO}/${LAMP}:${TAG}
+    ports:
+      - 8082:${PORT_CTN}
+  
+  etagas:
+    container_name: '${SERVER}-${ETAGAS}'
+    image: ${REPO}/${ETAGAS}:${TAG}
+    ports:
+      - 8083:${PORT_CTN}
+
+  robotica:
+    container_name: '${SERVER}-${ROBOTICA}'
+    image: ${REPO}/${ROBOTICA}:${TAG}
+    ports:
+      - 8084:${PORT_CTN}
+
+  astro:
+    container_name: '${SERVER}-${ASTRO}'
+    image: ${REPO}/${ASTRO}:${TAG}
+    ports:
+      - 8085:${PORT_CTN}
+
+  conversao:
+    container_name: '${SERVER}-${CONVERSAO}'
+    image: ${REPO}/${CONVERSAO}:${TAG}
+    ports:
+      - 8086:8080
