@@ -84,7 +84,7 @@ docker push fagnerfgb/robotica:v1 && docker push fagnerfgb/robotica:latest
 <h2>Site Astro Júpiter<br>
 Criador: Fagner Geraldes Braga</h2>
 
-<a href="https://github.com/fagnerfgb/astro.git" target="_blank">GitHub</a>   
+<a href="https://github.com/fagnerfgb/astrojupiter.git" target="_blank">GitHub</a>   
 [Dockerfile](astrojupiter/Dockerfile)
 
 ```bash
