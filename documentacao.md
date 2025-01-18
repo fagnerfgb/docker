@@ -22,7 +22,7 @@ docker login
 <h2>Mini APP que faz o sorteio de uma carta<br>
 Criador: Professor José de Assis</h2>
 
-[GitHub](https://github.com/professorjosedeassis/carta.git)  
+<a href="https://github.com/professorjosedeassis/carta.git" target="_blank">GitHub</a>   
 [Dockerfile](carta/Dockerfile)
 
 ```bash
@@ -35,7 +35,7 @@ docker push fagnerfgb/carta:v1 && docker push fagnerfgb/carta:latest
 <h2>Game Pedra - Papel - Tesoura<br>
 Criador: Professor José de Assis</h2>
 
-[GitHub](https://github.com/professorjosedeassis/jokenpow.git)  
+<a href="https://github.com/professorjosedeassis/jokenpow.git" target="_blank">GitHub</a>   
 [Dockerfile](jokenpow/Dockerfile)
 
 ```bash
@@ -48,7 +48,7 @@ docker push fagnerfgb/jokenpow:v1 && docker push fagnerfgb/jokenpow:latest
 <h2>Simples app para simular uma lâmpada<br>
 Criador: Professor José de Assis</h2>
 
-[GitHub](https://github.com/professorjosedeassis/lamp.git)  
+<a href="https://github.com/professorjosedeassis/lamp.git" target="_blank">GitHub</a>   
 [Dockerfile](lamp/Dockerfile)
 
 ```bash
@@ -60,7 +60,7 @@ docker push fagnerfgb/lamp:v1 && docker push fagnerfgb/lamp:latest
 <h2>Cálculo do combustivel mais vantajoso<br>
 Criador: Professor José de Assis</h2>
 
-[GitHub](https://github.com/professorjosedeassis/etagas.git)  
+<a href="https://github.com/professorjosedeassis/etagas.git" target="_blank">GitHub</a>   
 [Dockerfile](etagas/Dockerfile)
 
 ```bash
@@ -72,7 +72,7 @@ docker push fagnerfgb/etagas:v1 && docker push fagnerfgb/etagas:latest
 <h2>Site Robótica Prática<br>
 Criador: Professor José de Assis</h2>
 
-[GitHub](https://github.com/professorjosedeassis/roboticapratica.git)  
+<a href="https://github.com/professorjosedeassis/roboticapratica.git" target="_blank">GitHub</a>   
 [Dockerfile](roboticapratica/Dockerfile)
 
 ```bash
@@ -84,7 +84,7 @@ docker push fagnerfgb/robotica:v1 && docker push fagnerfgb/robotica:latest
 <h2>Site Astro Júpiter<br>
 Criador: Fagner Geraldes Braga</h2>
 
-[GitHub](https://github.com/fagnerfgb/astro.git)  
+<a href="https://github.com/fagnerfgb/astro.git" target="_blank">GitHub</a>   
 [Dockerfile](astrojupiter/Dockerfile)
 
 ```bash
@@ -96,7 +96,7 @@ docker push fagnerfgb/astro:v1 && docker push fagnerfgb/astro:latest
 <h2>Conversão de Temperatura<br>
 Criador: Fabricio Veronez</h2>
 
-[GitHub](https://github.com/KubeDev/conversao-temperatura.git)  
+<a href="https://github.com/KubeDev/conversao-temperatura.git" target="_blank">GitHub</a>   
 [Dockerfile](conversao-temperatura/src/Dockerfile)
 
 ```bash
